@@ -41,10 +41,4 @@ public class NextPermutation {
         reverse(nums, index + 1, nums.length - 1);
         System.out.println(Arrays.toString(nums));
     }
-
-    public static void main(String[] args) {
-        int[] x = {1, 3, 2};
-        NextPermutation e = new NextPermutation();
-        e.nextPermutation(x);
-    }
 }
