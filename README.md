@@ -1,1 +1,1 @@
-# This repository contains daily solutions to leetcode problems along with testcases
+# This repository contains solutions to leetcode problems along with testcases
