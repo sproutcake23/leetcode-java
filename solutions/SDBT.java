@@ -1,9 +1,5 @@
 package solutions;
 
-import javax.swing.tree.TreeNode;
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class SDBT {
 
 
@@ -24,7 +20,7 @@ public class SDBT {
         }
         return res.toString();
     }
-    
+
     public TreeNode deserialize(String data) {
         if (data == "") return null;
         Queue<TreeNode> q = new LinkedList<>();
